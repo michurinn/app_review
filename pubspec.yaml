@@ -8,7 +8,10 @@ repository: https://github.com/fluttercommunity/app_review
 environment:
   sdk: '>=3.0.0 <4.0.0'
   flutter: ^1.10.0
-
+  
+dependency_overrides:
+  http: any
+  
 dependencies:
   http: ^1.1.0
   package_info_plus: ^6.0.0
